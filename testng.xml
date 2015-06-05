@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="smoke-test-suite" parallel="tests" thread-count="5">
+<parameter name="ReportLocation" value="."></parameter>
+<parameter name="remoteURL" value=""></parameter>
+<parameter name="baseURL" value="http://www.applitrack.com/dex"></parameter>
+<parameter name="OS" value="win"></parameter>
+<parameter name="browser" value="firefox"></parameter>
+<parameter name="version" value="34"></parameter>
+<parameter name="internal" value="true"></parameter>
+<test name="SingleTest" >
+    <classes>
+       <class name="com.applitrack.test.automation.tests.LogInTest" >
+       </class>
+    </classes>
+</test>
+</suite>

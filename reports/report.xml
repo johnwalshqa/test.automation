@@ -1,0 +1,28 @@
+<TestSuite>
+  <TestSuiteName>smoke-test-suite</TestSuiteName>
+  <TestDateTime>2015-06-02 16:01:17.175</TestDateTime>
+  <TestCases>
+    <TestCase>
+      <TestCaseName>invalidLoginTest</TestCaseName>
+      <TestCaseId>KT1</TestCaseId>
+      <TestCaseDescription></TestCaseDescription>
+      <ParentURL>http://www.applitrack.com/dex</ParentURL>
+      <ExecutionEnvironment>{browser:firefox,browserVersion:34,OperatingSystem:win}</ExecutionEnvironment>
+      <ExecutionTime>3082</ExecutionTime>
+      <TestSteps/>
+      <testStepsCounter>1</testStepsCounter>
+      <screenshotDirectory>C:\Users\mayur\workspace\test.automation\.\reports\images</screenshotDirectory>
+    </TestCase>
+    <TestCase>
+      <TestCaseName>sucessfullLoginTest</TestCaseName>
+      <TestCaseId>KT2</TestCaseId>
+      <TestCaseDescription></TestCaseDescription>
+      <ParentURL>http://www.applitrack.com/dex</ParentURL>
+      <ExecutionEnvironment>{browser:firefox,browserVersion:34,OperatingSystem:win}</ExecutionEnvironment>
+      <ExecutionTime>14021</ExecutionTime>
+      <TestSteps/>
+      <testStepsCounter>1</testStepsCounter>
+      <screenshotDirectory>C:\Users\mayur\workspace\test.automation\.\reports\images</screenshotDirectory>
+    </TestCase>
+  </TestCases>
+</TestSuite>
